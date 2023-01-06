@@ -21,7 +21,6 @@ public class ReceiveMsg extends AppCompatActivity {
         view.setText(text);
     }
     public void SendMail(View view) {
-
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
         intent.putExtra(Intent.EXTRA_TEXT,text);
